@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			img{
+				width: 400px;
+				height: auto;
+				display: block;
+				margin: auto;
+				transition: all 3s;
+			}
+			img:hover{
+				-webkit-filter: none;
+			}
+			.img1{				
+				/* 滤镜属性
+				 grayscale:设置灰度，1是百分之百，0是百分之零*/
+				-webkit-filter: grayscale(1);
+				
+			}
+			.img2{
+				/* 滤镜属性
+				brightness：亮度，默认值是1，正常亮度
+				*/
+			   -webkit-filter: brightness(2);
+			}
+			.img3{
+				/* 褐色属性
+				 sepia:1百分之百褐色,正常为0*/
+				-webkit-filter: sepia(1);
+			}
+			.img4{
+				/* 模糊度
+				 blur:单位像素
+				 */
+				-webkit-filter: blur(50px);
+			
+			}
+			.img5{
+				/* 对比度
+				 contrast:对比度，正常就是1，如果调成0，就没有任何对比度，编程灰色
+				 */
+				-webkit-filter: contrast(0)
+			
+			}
+			.img6{
+				/* 饱和度
+				 saturate+*/
+				-webkit-filter:saturate(1)
+			}
+			.img7{
+				/* 反向（胶片底色） */
+				-webkit-filter:invert(1)
+			}
+			.img8{
+				/*  色相旋转*/
+				-webkit-filter: hue-rotate(0deg);
+			}
+			.img9{
+				-webkit-filter: brightness(20)grayscale(1)blur(10px);
+				transition: all 15s
+			}
+			.img9:hover{
+				-webkit-filter: brightness(1)grayscale(1)blur(0px);
+			}
+		</style>
+	</head>
+	<body>
+		<img class="img1"src="img/何炅.jpg" >
+		<img class="img2"src="img/何炅.jpg" >
+		<img class="img3"src="img/何炅.jpg" >
+		<img class="img4"src="img/何炅.jpg" >
+		<img class="img5"src="img/何炅.jpg" >
+		<img class="img6"src="img/何炅.jpg" >
+		<img class="img7"src="img/何炅.jpg" >
+		<img class="img8"src="img/何炅.jpg" >
+		<img class="img9"src="img/何炅.jpg" >
+		
+	</body>
+</html>
+  
